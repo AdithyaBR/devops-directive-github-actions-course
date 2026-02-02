@@ -9,7 +9,7 @@ jobs:
     steps:
       - run: echo "hi Hello World"
   say-hello-in-python:
-    runs-on: ubuntu-20.04   
+    runs-on: ubuntu-latest  
     steps:
       - run: print("Hello World")
         shell: python
