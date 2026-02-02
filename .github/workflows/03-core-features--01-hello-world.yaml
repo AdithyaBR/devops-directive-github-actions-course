@@ -1,11 +1,12 @@
 name: Hello Worldddd
 
 on:
-  workflow_dispatch: 
+  push: 
 
 jobs:
   say-hello:
     runs-on: ubuntu-latest
     steps:
       - run: echo "hi Hello World $date"
+      - run: $date
         shell: bash
