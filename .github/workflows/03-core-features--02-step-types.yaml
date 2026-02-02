@@ -1,7 +1,7 @@
-name: Step Types
+name: in-action
 
 on:
-  workflow_dispatch: 
+  push: 
 
 jobs:
   say-hello-in-bash:
@@ -13,3 +13,10 @@ jobs:
     steps:
       - run: print("Hello World")
         shell: python
+  say-hello-in-action:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/hello-world-javascript-action@v1
+        with:
+          who-to-greet: "from action in the github"
+        
