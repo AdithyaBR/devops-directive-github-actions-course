@@ -1,7 +1,7 @@
 name: in-action
 
 on:
-  push: 
+  workflow_dispatch:
 
 jobs:
   say-hello-in-bash:
