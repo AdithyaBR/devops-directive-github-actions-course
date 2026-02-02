@@ -28,9 +28,6 @@ jobs:
       - job-3
     steps:
       - run: echo " any jobs can make dependency like this"
-      - 
-      - :
-      - 
   
     
     
