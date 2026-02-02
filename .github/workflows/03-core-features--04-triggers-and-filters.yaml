@@ -1,9 +1,7 @@
 name: triggering events
 
 on:
-  push:
-    branches:
-      - "example*/*"
+#removed push interntionally for example branch on;ly
   pull_request:
     types:   
     - opened  
