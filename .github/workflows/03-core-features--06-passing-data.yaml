@@ -1,7 +1,6 @@
 name: Passing Variables Between jobs
 on:
-  workflow_dispatch:
-  push: 
+  workflow_dispatch: 
 
 jobs:
   producer:
